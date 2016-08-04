@@ -1,11 +1,13 @@
 .dropdown-submenu {
     position: relative;
 }
+/*
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a {
             
 }
+*/
 .navbar-brand{
     
     background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
@@ -47,37 +49,42 @@ body{
     background-size: cover;
     font-size: medium;
 }
-h2{
-    font-size: 1.2vw;
-}
-
-
-.jumbotron1, .jumbotron2, .jumbotron3{
-    
-    margin-top: 70px;
-    margin-bottom: 20px;
-    color:bisque;
-    background: rgba(28,38,74, 0.5); 
-    max-width:100%;
-    max-height: 20%;
-
-}
-
 
 #slide2{
     background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
     color: bisque;
-    height: 900px;
-    padding: 65px 0 0 0;
+    height: 1100px;
+    padding: 45px 0 0 0;
     background-size: cover;
     font-size: 1.5vw;
 }
-
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
 .aboutText1, .aboutText2, .aboutText3{
     font-size: 16px; 
     margin: 0px 45px 0px 45px;
-    font-size: max(1em, 12px);
+   
     
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
 }
 
 .aboutUspad{
