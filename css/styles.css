@@ -6,21 +6,73 @@
 .navbar .nav > li.current-menu-ancestor > a {
             
 }
-
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
 .backgroundhome{
-    background: url(http://cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/807309829.jpg) no-repeat center center fixed;
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
-.backgroundGU{
-    background: url(http://multaniresearch.weebly.com/growing-up.htmlcdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/394155262.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;         /* Generic*/
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
 }
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+ 
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+
+
+
+
 
 
 
