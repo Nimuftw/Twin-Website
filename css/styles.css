@@ -22,6 +22,9 @@
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
+body{
+    font-size: 16px;
+}
 .jumbotron{
     margin-top: 70px;
     margin-bottom: 20px;
@@ -44,13 +47,42 @@
     background-size: cover;
     font-size: medium;
 }
- 
+h2{
+    font-size: 1.2vw;
+}
+
+
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    background: rgba(28,38,74, 0.5); 
+    max-width:100%;
+    max-height: 20%;
+
+}
+
+
 #slide2{
     background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
     color: bisque;
     height: 900px;
-    padding: 170px 0 0 0;
+    padding: 65px 0 0 0;
     background-size: cover;
+    font-size: 1.5vw;
+}
+
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+    font-size: max(1em, 12px);
+    
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
 }
  
 #slide3{
@@ -68,7 +100,7 @@
     padding: 170px 0 0 0;
     background-size: cover;
 }
- 
+
 body.modal-open .background-container{
     -webkit-filter: blur(4px);
     -moz-filter: blur(4px);
