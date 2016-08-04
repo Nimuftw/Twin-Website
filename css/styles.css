@@ -4,13 +4,23 @@
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a {
-
-                        
-
-
-
+            
 }
- 
+
+.backgroundhome{
+    background: url(http://cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/807309829.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+.backgroundGU{
+    background: url(http://multaniresearch.weebly.com/growing-up.htmlcdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/394155262.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
 
 
 
