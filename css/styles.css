@@ -34,6 +34,15 @@
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
+.backgroundAugment{
+    background: url(//cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/549300778.jpg) center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    max-height: 20%;
+}
+
 
 h1,h3{
     
@@ -148,6 +157,26 @@ body{
     border-radius: 4px;
     border: 1px solid #eee;
 }
+.jumbotronAugment{
+    margin-top: 105px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
+    color:bisque;
+    background: rgba(26,25,23, 0.5); 
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+.augmentTitle, .augmentText{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+  
+    word-spacing: 7px;
+}
+
 .discoverButton{
     margin-top: 12.45px;
 }
