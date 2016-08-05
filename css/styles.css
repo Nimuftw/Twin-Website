@@ -21,24 +21,33 @@
     
 }
 .backgroundhome{
-    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    background: url(http://i.imgur.com/BJQ602t.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
-h3{
-    font-size: 1.5vw;
+.backgroundGU{
+    background: url(http://i.imgur.com/DVZhW1k.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+h1,h3{
+    
+    font-weight: bold !important;
 }
 body{
     font-size: 16px;
 }
 .jumbotron{
-    margin-top: 70px;
+    margin-top: 105px;
     margin-bottom: 20px;
-    color:bisque;
+    color:#ffffff;
     
-    background: rgba(2,209,225, 0.5); 
+    background: rgba(132,149,169, 0.5); 
     
    
 }
@@ -112,8 +121,35 @@ body{
     background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
     color: bisque;
     height: 900px;
-    padding: 170px 0 0 0;
+    padding: 50px 0 0 0;
     background-size: cover;
+}
+.jumbotronUCSD1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(229,230,232, 0.2); 
+  
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+.UCSDImage1{
+    border-radius: 15px;
+}
+.jumbotronUCSD2, .jumbotronUCSD3, .jumbotronUCSD4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(26,25,23, 0.5); 
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+.discoverButton{
+    margin-top: 12.45px;
 }
 
 body.modal-open .background-container{
