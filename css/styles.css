@@ -119,8 +119,9 @@ body{
     padding: 50px 0 0 0;
     background-size: cover;
 }
-.achievementsh1{
-    margin-top: 50px;
+
+.roundCorners{
+    border-radius: 15px;
 }
 
 .jumbotronUCSD1{
@@ -131,11 +132,21 @@ body{
     color:bisque;
     background: rgba(229,230,232, 0.2); 
   
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+.jumbotronUCSD2{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(26,25,23, 0.4); 
+  
     border-radius: 4px;
     border: 1px solid #eee;
 }
-
-.jumbotronUCSD2, .jumbotronUCSD3, .jumbotronUCSD4{
+.jumbotronUCSD3, .jumbotronUCSD4{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 30px;
