@@ -99,6 +99,8 @@ body{
     padding-top: 20px;
     padding-bottom: 45px;
 }
+
+
  
 #slide3{
     background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
@@ -107,13 +109,42 @@ body{
     padding: 170px 0 0 0;
     background-size: cover;
 }
+
+
  
 #slide4{
     background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
     color: bisque;
     height: 900px;
-    padding: 170px 0 0 0;
+    padding: 50px 0 0 0;
     background-size: cover;
+}
+.achievementsh1{
+    margin-top: 50px;
+}
+
+.jumbotronUCSD1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(229,230,232, 0.2); 
+  
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.jumbotronUCSD2, .jumbotronUCSD3, .jumbotronUCSD4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(26,25,23, 0.7); 
+  
+    border-radius: 4px;
+    border: 1px solid #eee;
 }
 
 body.modal-open .background-container{
