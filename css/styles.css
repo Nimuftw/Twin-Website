@@ -24,6 +24,9 @@
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
+h3{
+    font-size: 1.5vw;
+}
 body{
     font-size: 16px;
 }
@@ -53,11 +56,13 @@ body{
 #slide2{
     background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
     color: bisque;
-    height: 1100px;
+    height: 900px;
     padding: 45px 0 0 0;
     background-size: cover;
     font-size: 1.5vw;
-}
+   
+} 
+
 .circular {
 	width: auto;
 	height: auto;
@@ -66,7 +71,7 @@ body{
 	-moz-border-radius: 150px;
 }
 .aboutText1, .aboutText2, .aboutText3{
-    font-size: 16px; 
+    font-size: .8vw; 
     margin: 0px 45px 0px 45px;
    
     

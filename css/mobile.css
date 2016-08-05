@@ -1,0 +1,1038 @@
+@media all and (min-width:1025px) and (max-width: 1519px) {
+.dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 1.5vw;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 700px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: .8vw; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+}
+
+
+
+
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+.dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height:900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+
+
+
+
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+    h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  .dropdown-submenu {
+    position: relative;
+}
+/*
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+            
+}
+*/
+.navbar-brand{
+    
+    background: url(http://multaniresearch.weebly.com/uploads/3/7/9/3/37931277/1468481250.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: none;
+    
+}
+.backgroundhome{
+    background: url(http://i.imgur.com/EI8NVpW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+h3{
+    font-size: 16px;
+}
+body{
+    font-size: 16px;
+}
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:bisque;
+    
+    background: rgba(2,209,225, 0.5); 
+    
+   
+}
+.multaniResearch{
+   font-family: 'Italianno', cursive;     
+}
+#slide1, #slide2{ width: 100%;}
+#slide1{
+    background:url() 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-size: medium;
+}
+
+#slide2{
+    background: url(http://i.imgur.com/TaBw5lO.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 1100px;
+    padding: 45px 0 0 0;
+    background-size: cover;
+    font-size: 1.5vw;
+   
+} 
+
+.circular {
+	width: auto;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.aboutText1, .aboutText2, .aboutText3{
+    font-size: 16px; 
+    margin: 0px 45px 0px 45px;
+   
+    
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:bisque;
+    background: rgba(63,82,141, 0.5); 
+  
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+   
+
+}
+
+.aboutUspad{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+ 
+#slide3{
+    background: url(http://i.imgur.com/tiamWCF.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background: url(http://i.imgur.com/JS8jLyq.jpg) 50% 0 no-repeat fixed;
+    color: bisque;
+    height: 900px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
+}
