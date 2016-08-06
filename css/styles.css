@@ -8,7 +8,11 @@
             
 }
 */
-.navbar{
+.navbar-fixed-bottom{
+    
+}
+
+.navbar-inverse{
     background:rgba(3,4,33, 0.7); 
 }
 .navbar-brand{
@@ -42,7 +46,37 @@
     background-size: cover;         /* Generic*/
     max-height: 20%;
 }
+.backgroundCS{
+    background: url(http://i.imgur.com/KPoD2id.png) no-repeat center center fixed;
+     -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    margin-bottom: 300px;
+    
+}
+.CSHeader{
+    position:relative;
+    height: 130px;
+    margin: 5px 5px 0 5px;
+    border: #0f0f12 outset 2px;
+    border-radius: 15px;
 
+}
+.CSBanner{
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    z-index: -1;
+    
+}
+.CSTitle{
+    position: absolute; 
+    top: 7%; 
+    color: bisque;
+    text-align: center;
+    width: 100%; 
+}
 
 h1,h3{
     
@@ -176,7 +210,9 @@ body{
   
     word-spacing: 7px;
 }
-
+.augmentButton{
+    margin-left: 10px;
+}
 .discoverButton{
     margin-top: 12.45px;
 }
