@@ -8,7 +8,11 @@
             
 }
 */
-.navbar{
+.navbar-fixed-bottom{
+    
+}
+
+.navbar-inverse{
     background:rgba(3,4,33, 0.7); 
 }
 .navbar-brand{
@@ -33,6 +37,45 @@
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
+}
+.backgroundAugment{
+    background: url(//cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/549300778.jpg) center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    max-height: 20%;
+}
+.backgroundCS{
+    background: url(http://i.imgur.com/KPoD2id.png) no-repeat center center fixed;
+     -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    margin-bottom: 300px;
+    
+}
+.CSHeader{
+    position:relative;
+    height: 130px;
+    margin: 5px 5px 0 5px;
+    border: #0f0f12 outset 2px;
+    border-radius: 15px;
+
+}
+.CSBanner{
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    z-index: -1;
+    
+}
+.CSTitle{
+    position: absolute; 
+    top: 7%; 
+    color: bisque;
+    text-align: center;
+    width: 100%; 
 }
 
 .GUh1, GUwrapper{
@@ -151,6 +194,28 @@ body{
     background: rgba(26,25,23, 0.5); 
     border-radius: 4px;
     border: 1px solid #eee;
+}
+.jumbotronAugment{
+    margin-top: 105px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
+    color:bisque;
+    background: rgba(26,25,23, 0.5); 
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+.augmentTitle, .augmentText{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+  
+    word-spacing: 7px;
+}
+.augmentButton{
+    margin-left: 10px;
 }
 .discoverButton{
     margin-top: 12.45px;
