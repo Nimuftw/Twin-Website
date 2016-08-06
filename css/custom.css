@@ -36,6 +36,7 @@
 	opacity: 0.9;
 	border-radius: 50%;
 	box-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    margin-left:-40px;
 }
 
 .nav-arrows a:first-child{

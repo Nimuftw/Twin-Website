@@ -38,6 +38,16 @@
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 }
+
+
+.GUText{
+    font-size: 19px;
+}
+
+.GUPad{
+    padding-bottom: 15%;
+}
+
 .backgroundAugment{
     background: url(//cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/549300778.jpg) center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
