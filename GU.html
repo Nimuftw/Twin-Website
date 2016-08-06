@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test Website
-            
-        </title>
+        <title>Test Website</title>
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-      
+        <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+		<meta name="author" content="Pedro Botelho for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/mobile.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
     </head>
-    <body class="backgroundGU">
-   
-        <div class="background-container">
-        <div class= "navbar navbar-inverse navbar-fixed-top">
+    
+    <body>
+        <div class="container">
+<!--            Put navbar here-->
+            <div class= "navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <a href="#" class="navbar-brand pull-left"></a>
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -67,6 +76,43 @@
                 </div>
             </div>
         </div>
+<!--            Put navbar here-->
+
+			<h1 class="GUh1">Growing Up</h1>
+
+			<div class="wrapper GUwrapper">
+
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<img src="http://i.imgur.com/COywTqD.jpg" alt="image2"/>
+					</li>
+					<li>
+						<img src="http://i.imgur.com/wDl0GB9.jpg" alt="image3"/>
+					</li>
+					<li>
+						<img src="http://i.imgur.com/eD1W1Fc.jpg" alt="image4"/>
+					</li>
+					<li>
+						<img src="http://i.imgur.com/H12ovew.jpg" alt="image5"/>
+					</li>
+					<li>
+						<img src="http://i.imgur.com/SbRrVx5.jpg" alt="image6"/>
+					</li>
+				</ul>
+
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+			</div><!-- /wrapper -->
+
+		</div>
+        
+        
+
         <div class="navbar navbar-inverse navbar-fixed-bottom">
             <div class="container">
                 <p class="navbar-text pull-left">Test Site. Property of: Kevin Lin and Shishir Reddy</p>
@@ -116,9 +162,61 @@
                         </div>
                     </div>
                 </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
         <script src="js/bootstrap.js"></script>
         <script src="js/dropdown.js"></script>
+        <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
 
     </body>
 
