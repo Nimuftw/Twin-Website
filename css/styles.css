@@ -39,7 +39,7 @@
     background-size: cover;         /* Generic*/
 }
 .backgroundAugment{
-    background: url(//cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/549300778.jpg) center center fixed;
+    background: url(http://cdn1.editmysite.com/uploads/3/7/9/3/37931277/background-images/549300778.jpg) center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
