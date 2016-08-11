@@ -63,7 +63,20 @@
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     margin-bottom: 300px;
-    
+}
+.backgroundMotivation{
+    background: url(http://i.imgur.com/qaY9Qbt.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+.backgroundAbstract{
+    background: url(http://i.imgur.com/aEqJ8JU.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 }
 .CSHeader{
     position:relative;
@@ -241,7 +254,62 @@ body.modal-open .background-container{
 filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
 }
 
+.motivationContainer{
+    padding-top: 50px;
+    color:bisque;
+}
 
+.motivationTitle{
+    text-align: center;
+}
 
+.image1M, .image2M, .image3M{
+    border-radius: 15px;
+    border: 3px solid black;
+}
 
+.imagesMotivation{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
 
+.row1Motivation, .row2Motivation{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.paragraphMDifferent{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 40px;
+}
+
+.paragraphM, .paragraphMDifferent{
+    font-size: 17.5px;
+}
+
+.quoteMotivation{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align:center;
+}
+
+.abstractContainer{
+    margin-top: 120px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+.abstractTitle{
+    font-size: 50px;
+}
+
+.abstractText{
+    font-size: 21px;
+}
